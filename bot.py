@@ -10,8 +10,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 from pytz import timezone as tz
 
-TELEGRAM_BOT_TOKEN = "8091395763:AAHzwEZR8M9JXY9uh1X5KG_rD59E2eKEev8"
-GEMINI_API_KEY = "AIzaSyD6z5HWShEVUgUYsAb4IjBsVM3kQhvL6f8"
+TELEGRAM_BOT_TOKEN = ":AAHzwEZR8M9JXY9uh1X5KG_rD59E2eKEev8"
+GEMINI_API_KEY = ""
 
 logging.basicConfig(level=logging.INFO)
 
